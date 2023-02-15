@@ -1,6 +1,8 @@
 body{
     margin:0;
     font-family:'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    background-color: rgb(160, 161, 162);
 }
 
 /* HEADER */
@@ -8,25 +10,29 @@ body{
 header{
     background-color: black;
     color: white;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0.5vw 0;
 }
 
-.titulo{
+.contenedor{
     display: flex;
     align-items:center;
     justify-content: center;
-    height: 10vw;
+    height: 100%;
 }
 
-.titulo > div > h1{
-    width: 12vw;
+.contenedor .titulo h1{
+    width: 18vw;
     margin: 0 0 0 2vw;
-    padding-bottom: 0.2vw;
-    padding-left: 2vw;
-    font-size: 2.5vw;
+    padding:0 0 0.5vw 2vw;
+    font-size: 4vw;
     border-left: 0.1vw solid yellow;
 }
 
-#subtitulo{
+.contenedor .subtitulo{
     display: flex;
     align-items: center;
     justify-content: left;
@@ -36,81 +42,76 @@ header{
 
 }
 
-#subtitulo h2{
+.subtitulo h2{
+    background-color: yellow;
     color: rgb(0, 0, 0);
     margin: 0;
     padding: 0.2vw 1vw;
-    background-color: yellow;
     border-radius: 20px;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
-.titulo > img{
-    width:8vw;
+.contenedor img{
+    width:12vw;
     padding: 2vw;
     border-radius: 4vw;
 }
 
 /* MAIN */
 
-main{
-    background-color: rgb(160, 161, 162);
-    font-size: 1.2vw;
-}
-
 nav{
     background-color:rgb(67, 64, 64);
     display: flex;
     align-items:center;
     justify-content: space-around;
+    position: sticky;
+    top:0;
     font-size: 2vw;
     width: 100%;
     height: 3vw;
     border-bottom: 0.2vw solid black;
-    position: sticky;
-    top:0
 }
 
-nav > a{
+nav a{
     text-decoration: none;
     color: black;
 }
 
-nav>a:hover{
+nav a:hover{
     color: rgb(160, 161, 162);
-    border-bottom: 2px solid rgba(255, 255, 0, 0.866);
-
+    border-bottom: 0.2vw solid rgba(255, 255, 0, 0.866);
 }
 
-.bio{
-    padding: 1vw 4vw;
-    margin: 0 15vw;
+.subtitulo2{
+    text-align: center;
+    padding-left: 4vw;
+    margin-left: 25vw;
+    width: 13vw;
 }
 
-.bio > h2{
-    width: 40%;
-    padding-bottom: 1vw;
+.subtitulo2 h2{
+    width: 100%;
+    padding-bottom: 0.5vw;
+    margin: 5vw 0 0 0;
     border-bottom: 0.3vw dashed rgba(255, 255, 0, 0.866);
     font-size: 2vw;
-    margin: 3vw 0 0 0;
 }
 
 .cuerpo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 15vw;
+    margin: 0 10vw;
     padding-bottom:2vw;
 }
 
-.cuerpo > img{
-    width: 30%;
-    padding-bottom: 2vw;
+.texto{
+    margin: 2vw 4vw 2vw 1vw;
 }
 
-.texto{
-    margin: 2vw 4vw;
-    margin-bottom: 2vw;
+.cuerpo img{
+    width: 30%;
+    padding-bottom: 2vw;
 }
 
 .separador{
@@ -118,41 +119,45 @@ nav>a:hover{
     border-bottom: 0.2vw dashed black;
 }
 
-#ayuda{
+.subtitulo3{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 90%;
     font-size: 2vw;
     margin: 2vw 0;
 }
 
-.cuerpo > h3{
+.cuerpo h3{
     width: 13vw;
     font-size: 2vw;
-    border-left: 0.3vw solid yellow;
+    border-left: 0.2vw solid yellow;
     padding-left: 1vw;
 }
 
-.cuerpo > .ayuda{
+.cuerpo .ayuda{
     width: 30vw;
     padding:0 2vw;
 }
 
-.cuerpo > .img_ayuda{
+.cuerpo .img_ayuda{
     width: 20%;
     margin-top: 2vw;
 }
 
 /* FOOTER */
 
-footer > nav{
+footer nav{
     justify-content: center;
     border-top: 0.2vw solid black;
     border-bottom: 0;
     height: 6vw;
 }
 
-footer > nav > a{
+footer nav a{
     padding: 0.5vw 3vw 0;
 }
 
-footer > nav > a > img{
+footer nav a img{
     width: 4vw;
 }
