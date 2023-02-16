@@ -77,14 +77,13 @@ nav{
     top:0
 }
 
-nav > a{
+nav a{
     text-decoration: none;
     color: black;
 }
 
-nav>a:hover{
-    color: rgb(160, 161, 162);
-    border-bottom: 2px solid rgba(255, 255, 0, 0.866);
+nav a:hover{
+    border-bottom: 0.3px solid rgba(255, 255, 0, 0.866);
 }
 
 main h3{
@@ -97,6 +96,7 @@ main h3{
 /* FOOTER */
 
 footer nav{
+    background-color:rgb(67, 64, 64);
     justify-content: center;
     border-top: 0.2vw solid black;
     border-bottom: 0;
