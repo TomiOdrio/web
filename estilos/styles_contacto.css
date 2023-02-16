@@ -193,3 +193,61 @@ footer nav a{
 footer nav a img{
     width: 4vw;
 }
+
+@media (max-width:500px){
+    body{
+        font-size: 2.5vw;
+    }
+    .contenedor .titulo h1{
+        width:22vw;
+        font-size: 5vw;
+    }
+    
+    .contenedor .subtitulo h2{
+        font-size: 3vw;
+    }
+
+    .contenedor img{
+        width: 16vw;
+    }
+    header{
+        height: 20vw;
+    }
+    nav{
+        height: 6vw;
+        font-size: 3vw;
+    }
+
+    form{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    form h2{
+        font-size: 3vw;
+    }
+
+    form input,textarea{
+        height: 3vw;
+        font-size: 2vw;
+    }
+
+    textarea{
+        min-height: 5vw;
+        max-height: 6vw;
+    }
+
+    #boton{
+        width: 15vw;
+        height: 4vw;
+        font-size: 2.5vw;
+    }
+
+    footer nav{
+        height: 9vw;
+    }
+    
+    footer nav a img{
+        width: 6vw;
+    }
+}
