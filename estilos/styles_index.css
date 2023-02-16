@@ -78,8 +78,7 @@ nav a{
 }
 
 nav a:hover{
-    color: rgb(160, 161, 162);
-    border-bottom: 0.2vw solid rgba(255, 255, 0, 0.866);
+    border-bottom: 0.3vw solid rgba(255, 255, 0, 0.866);
 }
 
 .subtitulo2{
@@ -148,6 +147,7 @@ nav a:hover{
 /* FOOTER */
 
 footer nav{
+    background-color:rgb(67, 64, 64);
     justify-content: center;
     border-top: 0.2vw solid black;
     border-bottom: 0;
