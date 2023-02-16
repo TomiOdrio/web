@@ -206,6 +206,9 @@ footer nav a img{
     .contenedor .subtitulo h2{
         font-size: 3vw;
     }
+    .contenedor #seccion{
+        font-size: 5vw;
+    }
 
     .contenedor img{
         width: 16vw;
