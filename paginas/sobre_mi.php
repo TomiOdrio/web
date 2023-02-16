@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos/styles_sobre_mi.css">
+    <link rel="stylesheet" href="/repositorio/estilos/styles_sobre_mi.css">
+    <link rel="icon" href="/repositorio/assets/imagen_logo.ico">
     <title>Odriozola, Tomás: Sobre Mi</title>
 </head>
 
-<body>
+<?php require('./layout/header.php') ?>
+
+<!-- <body>
     <header>
         <div class="contenedor">
             <div class="titulo">
@@ -16,19 +19,20 @@
                 <div class="subtitulo">
                     <h2>Data Scientist</h2>
                 </div>
-            </div>
+            </div> -->
             <h1 id="seccion">Sobre Mi</h1>
-            <img src="/assets/Imagen Perfil.png" alt="Imagen perfil">
+            <img src="/repositorio/assets/Imagen Perfil.png" alt="Imagen perfil">
         </div>
     </header>
 
-    <main>
+    <?php require('./layout/nav.php') ?>
+    <!-- <main>
         <nav>
-            <a href="/index.html">Inicio</a>
-            <a href="/paginas/sobre_mi.html">Sobre Mi</a>
-            <a href="/paginas/proyectos.html">Proyectos</a>
-            <a href="/paginas/contacto.html">Contacto</a>
-        </nav>
+            <a href="/repositorio/index.html">Inicio</a>
+            <a href="/repositorio/paginas/sobre_mi.html">Sobre Mi</a>
+            <a href="/repositorio/paginas/proyectos.html">Proyectos</a>
+            <a href="/repositorio/paginas/contacto.html">Contacto</a>
+        </nav> -->
 
         <div class="subtitulo2">
             <h2>Aptitudes</h2>
@@ -153,15 +157,17 @@
             </ul>
         </div>
     </main>
+    
+    <?php require('./layout/footer.php') ?>
 
-    <footer>
+    <!-- <footer>
         <nav>
-            <a href="https://twitter.com/T_Odriozola" target="_blank"><img src="/assets/logo_twitter.png" alt="Imagen Twitter"></a>
-            <a href="#" target="_blank"><img src="/assets/logo_instagram.png" alt="Imagen Instagram"></a>
-            <a href="https://www.linkedin.com/in/tom%C3%A1s-odriozola-765364221/" target="_blank"><img src="/assets/logo_linkedin.png" alt="Imagen LinkedIn"></a>    
-            <a href="https://github.com/TomiOdrio" target="_blank"><img src="/assets/logo_github.png" alt="Imagen GitHub"></a>    
+            <a href="https://twitter.com/T_Odriozola" target="_blank"><img src="/repositorio/assets/logo_twitter.png" alt="Imagen Twitter"></a>
+            <a href="#" target="_blank"><img src="/repositorio/assets/logo_instagram.png" alt="Imagen Instagram"></a>
+            <a href="https://www.linkedin.com/in/tom%C3%A1s-odriozola-765364221/" target="_blank"><img src="/repositorio/assets/logo_linkedin.png" alt="Imagen LinkedIn"></a>    
+            <a href="https://github.com/TomiOdrio" target="_blank"><img src="/repositorio/assets/logo_github.png" alt="Imagen GitHub"></a>    
         </nav>
     </footer>
     
 </body>
-</html>
+</html> -->
