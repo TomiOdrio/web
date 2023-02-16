@@ -106,7 +106,6 @@ nav a:hover{
 }
 
 .aptitud{
-    flex-direction: column;
     padding-bottom: 4vw;
 }
 
@@ -131,6 +130,7 @@ nav a:hover{
     width: 40%;
     margin:0;
     padding-left: 4vw;
+    margin-left: 2vw;
 }
 
 .aptitud ul li{
@@ -189,4 +189,67 @@ footer nav a{
 
 footer nav a img{
     width: 4vw;
+}
+
+@media (max-width:500px){
+    body{
+        font-size: 2.5vw;
+    }
+    .contenedor .titulo h1{
+        width:22vw;
+        font-size: 5vw;
+    }
+    
+    .contenedor .subtitulo h2{
+        font-size: 3vw;
+    }
+
+    .contenedor img{
+        width: 16vw;
+    }
+    header{
+        height: 20vw;
+    }
+    nav{
+        height: 6vw;
+        font-size: 3vw;
+    }
+
+    .aptitud{
+        justify-content: center;
+    }
+    .subtitulo2{
+        margin: 7vw 36.5%;
+        width: 27%;
+        padding:0;
+        text-align: center;
+    }
+    .subtitulo2 h2{
+        font-size: 3vw;
+        width: 100%;
+    }
+    .aptitud div{
+        width: 20vw;
+        margin-bottom: 3vw;
+    }
+
+    .aptitud div h3{
+        font-size: 2.7vw;
+    }
+
+    .bloque{
+        margin: 0 10vw 2vw
+    }
+
+    .bloque ul li{
+        width: 30vw;
+    }
+    
+    footer nav{
+        height: 9vw;
+    }
+    
+    footer nav a img{
+        width: 6vw;
+    }
 }
