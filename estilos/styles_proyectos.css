@@ -83,7 +83,7 @@ nav a{
 }
 
 nav a:hover{
-    border-bottom: 0.3px solid rgba(255, 255, 0, 0.866);
+    border-bottom: 0.3vw solid rgba(255, 255, 0, 0.866);
 }
 
 main h3{
