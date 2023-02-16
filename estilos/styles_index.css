@@ -201,6 +201,10 @@ footer nav a img{
         text-align: center;
         margin-bottom: 6vw;
     }
+    
+    #bio{
+        text-align: center;
+    }
 
     #inverso{
         flex-direction: column-reverse;
