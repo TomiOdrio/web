@@ -60,7 +60,7 @@ header{
 /* MAIN */
 
 nav{
-    background-color:rgb(67, 64, 64);
+    background-color:rgb(108, 101, 101);
     display: flex;
     align-items:center;
     justify-content: space-around;
@@ -68,7 +68,7 @@ nav{
     top:0;
     font-size: 2vw;
     width: 100%;
-    height: 3vw;
+    height: 4vw;
     border-bottom: 0.2vw solid black;
 }
 
