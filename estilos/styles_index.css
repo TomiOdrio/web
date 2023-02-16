@@ -85,7 +85,7 @@ nav a:hover{
     text-align: center;
     padding-left: 4vw;
     margin-left: 25vw;
-    width: 13vw;
+    width: 15vw;
 }
 
 .subtitulo2 h2{
@@ -93,15 +93,20 @@ nav a:hover{
     padding-bottom: 0.5vw;
     margin: 5vw 0 0 0;
     border-bottom: 0.3vw dashed rgba(255, 255, 0, 0.866);
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 .cuerpo {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 0 10vw;
     padding-bottom:2vw;
+}
+
+#bio{
+    text-align: left;
 }
 
 .texto{
@@ -210,5 +215,13 @@ footer nav a img{
         width: 85%;
         text-align: center;
         padding:0 3.5vw;
+    }
+    
+    footer nav{
+        height: 9vw;
+    }
+    
+    footer nav a img{
+        width: 6vw;
     }
 }
